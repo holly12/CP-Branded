@@ -1,6 +1,6 @@
 **CP Branded Chrome Extension**
 
-Rebrand Google & Chrome's new tab page with ChallengePost logo.
+Rebrand Google & Chrome's new tab page with the ChallengePost logo.
 
 <img src="http://gam.s3.amazonaws.com/cdn/cp_branded_ss.png" style = "padding:1px; border:1px solid #021a40;">
 

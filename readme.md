@@ -13,3 +13,7 @@ Follow these [instructions](https://developer.chrome.com/extensions/getstarted.h
 **Why?**
 
 Uhm, why not? Everbody loves a fun hack!
+
+**Issues**
+
+New tabs are kind of slow on initial startup, (cold opening the browser), but then things seem to bounce back. Probably worth looking into.

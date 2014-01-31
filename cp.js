@@ -9,4 +9,12 @@ if (document.title.indexOf("Google") != -1) {
 		logo.src = imgURL;
   	logo.width = 336; 
   	logo.height = 95; 
+
+		// hide "I'm feeling lucky" button
+		
+		//var lucky = document.getElementById('gbqfbb');
+		document.getElementById('gbqfbb').style.display = 'none';
+
+
+
 }

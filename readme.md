@@ -1,8 +1,8 @@
 **CP Branded Chrome Extension**
 
-This extension replaces the Google logo on Google.com & Chrome's new tab page with the ChallengePost logo.
+Rebrands Google.com & Chrome's new tab page with the ChallengePost logo and removes the "I'm feeling lucky" button.
 
-The image replacement method uses javascript to override the `src`, `height`, and `width` attributes of the `hplogo` element.
+Logo replacement uses javascript to override the `src`, `height`, and `width` attributes of the `hplogo` element.
 
 The manifest also overrides the new tab page default with a custom HTML file that redirects to google.com. 
 

@@ -1,7 +1,7 @@
 {
 "name":"CP Branded",
-"description":"replace Google logo with CP logo on Google.com & (although it's kludgy) Chrome's new tab page",
-"version":"0.1",
+"description":"Rebrand Google.com & Chrome's new tab page",
+"version":"0.2",
 "author": "Neal Shyam",
 "manifest_version":2,
 "content_scripts": [

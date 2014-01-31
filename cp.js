@@ -33,9 +33,12 @@ if (document.title.indexOf("Google") != -1) {
 		atext.textContent = "cats";
 		
 		abut.onclick = function(){
-			//alert("derp");
-			// everyone loves cats. or something like that.
-			window.location = "http://thecatapi.com/api/images/get?format=src&type=gif";
+			// everyone loves cat gifs, so let's use the giphy api and pull a random cat gif.			
+			var xhReq = new XMLHttpRequest();
+			xhReq.open("GET", "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cat", false);
+			xhReq.send(null);
+			var catUrl = JSON.parse(xhReq.responseText).data.image_url; 
+			window.location = catUrl;
 		};
 
 }

@@ -1,7 +1,7 @@
 {
 "name":"CP Branded",
-"description":"Rebrand Google.com & Chrome's new tab page",
-"version":"0.3",
+"description":"Rebrand Google & Chrome's new tab page with a custom logo",
+"version":"0.4",
 "author": "Neal Shyam",
 "manifest_version":2,
 "content_scripts": [

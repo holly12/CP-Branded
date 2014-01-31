@@ -4,9 +4,7 @@ Rebrand Google & Chrome's new tab page with the ChallengePost logo.
 
 <img src="http://gam.s3.amazonaws.com/cdn/cp_branded_ss.png" style = "padding:1px; border:1px solid #021a40;">
 
-Logo replacement uses javascript to override the `src`, `height`, and `width` attributes of the `hplogo` element.
-
-The manifest also overrides the default new tab page with custom HTML that redirects to Google. 
+The logo is replaced via javascript overriding the `src`, `height`, and `width` attributes of the `hplogo` element. There is also an override that redirects the default new tab page to Google.
 
 **Installation**
 

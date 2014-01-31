@@ -1,7 +1,15 @@
-**CP Branded**
+**CP Branded Chrome Extension**
 
-Just a quick experiment / first foray into Chrome extensions. The goal is to replace the Google logo on Google.com & Chrome's new tab page with the ChallengePost logo.
+This extension replaces the Google logo on Google.com & Chrome's new tab page with the ChallengePost logo.
 
-The image replacement consists of some simple javascript to identify the target `img` element, reset the `src`, and hardcode the `height` & `width` attributes.
+The image replacement method uses javascript to override the `src`, `height`, and `width` attributes of the `hplogo` element.
 
-To make this work for the new tab page, I am overriding the new tab page default with a custom HTML file that redirects to google.com. 
+The manifest also overrides the new tab page default with a custom HTML file that redirects to google.com. 
+
+**Installation**
+
+Follow these [instructions](https://developer.chrome.com/extensions/getstarted.html#unpacked)
+
+**Why?**
+
+Uhm, why not? Everbody loves a fun hack!
